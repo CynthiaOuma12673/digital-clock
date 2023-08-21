@@ -22,4 +22,7 @@ function myDigitalClock(){
 
 // Time display in the format of hours, mins, seconds and timezone
     var time = hours + ":" + minutes + ":" + seconds + "" +zone;
+
+// html update 
+document.getElementById("digital-clock").textContent = time;
 }
