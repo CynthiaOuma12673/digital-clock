@@ -16,4 +16,7 @@ function myDigitalClock(){
         hours = 12;
     }
 
+// adding zeros infront of one digit numbers in minutes and seconds
+    minutes = minutes < 10 ? "0" + minutes:minutes;
+    seconds = seconds < 10 ? "0" + seconds:seconds;
 }
