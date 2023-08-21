@@ -7,7 +7,7 @@ This is a simple digital clock implemented using HTML and JavaScript. It display
 ## Usage
 1. Clone or download this repository to your local machine.
 
-2. Open the digital_clock.html file in a web browser (e.g., Google Chrome, Mozilla Firefox, or Microsoft Edge).
+2. Open the clock.html file in a web browser (e.g., Google Chrome, Mozilla Firefox, or Microsoft Edge).
 
 3. The digital clock will be displayed on the web page, and it will continuously update every second to show the current time.
 
