@@ -28,5 +28,7 @@ function myDigitalClock(){
 
 // clock update after every seconds(refreshing)
     setTimeout(myDigitalClock, 1000);
-    
+
 }
+
+myDigitalClock();
