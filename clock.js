@@ -24,5 +24,9 @@ function myDigitalClock(){
     var time = hours + ":" + minutes + ":" + seconds + "" +zone;
 
 // html update 
-document.getElementById("digital-clock").textContent = time;
+    document.getElementById("digital-clock").textContent = time;
+
+// clock update after every seconds(refreshing)
+    setTimeout(myDigitalClock, 1000);
+    
 }
